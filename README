@@ -1,0 +1,12 @@
+Functionality:
+This will update only .xml.gz files.
+
+Search all the files under the base_directory, looks for CFGDATA.xml and
+CFGDATA.xml.gz files.
+Update the text under tag <eNodeBFunctionName> each file by the text under
+tag <NENAME>
+
+Usage:
+enbfunc_enbname.exe "Based directory under which you need to update the
+files"
+
